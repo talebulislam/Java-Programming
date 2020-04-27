@@ -106,7 +106,7 @@ class Placement_Drive
 				for (int i = 0; i < n; i++) 
 				{
 					Data data = list.get(i);
-					if(data.cgpa>=f_cgpa && data.course.equals(f_course))
+					if(data.cgpa>=f_cgpa && data.course.equals(f_course) && data.status==true)
 					{
 						count++;
 						System.out.println("\n"+count+". Name : "+data.name+" Course_Name : "+data.course+" Registration : "+data.reg_no+" CGPA : "+data.cgpa+" Placemant Status : "+data.status); 
